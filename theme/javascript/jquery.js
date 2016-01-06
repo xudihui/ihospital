@@ -187,11 +187,12 @@ $(function(){
 	
 	$('.d1').hover(function(){
 		$(this).find('h3').toggleClass('swing animated')
-	})
+	});
 	
 	$('.picList li').hover(function(){
 		$(this).find('img').toggleClass('pulse animated')
-	})	
+	});
+	
 	var init = function(arr){
 		for(i in arr){//无序遍历
 			var el = $(arr[i][0]);
@@ -201,8 +202,6 @@ $(function(){
 	$(window).bind('load',function(){ //此处一定要在图片全部载入之后在触发，纯粹的DOMready会导致一些图片虽然在滚动，但内容是空白的
 	    $('#slider').nivoSlider({ pauseTime:3000,effect: 'random'});
 		init([ //初始化页面，有元素则触发滚动
-			
-			[".slideDoctors",{mainCell:".bd ul",autoPlay:true,effect:"leftLoop",easing:"linear",delayTime:300,interTime:3000}],
 			[".picMarquee-left",{mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:3,interTime:30,trigger:'click'}]
 		]);			
 	});

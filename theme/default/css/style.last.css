@@ -33,7 +33,7 @@ a.a_r:hover,a.a_l:hover{-webkit-animation-name:bounceIn;animation-name:bounceIn;
 
 .c1{height:372px;background:url(../images/circle_bg.jpg) no-repeat;}
 h3{height:30px;line-height:30px;font-size:18px;color:#488ffb;font-weight:normal;text-indent:16px}
-h3 a{color:#aaa;font-size:12px;padding-left:5px;border-left:1px solid #aaa;margin-left:5px;display: inline-block;height: 12px;line-height: 10px;width:auto!important}
+h3 a{color:#aaa;font-size:12px;padding-left:5px;border-left:1px solid #aaa;margin-left:5px;text-indent:0;display: inline-block;height: 12px;line-height: 10px;width:auto!important}
 
 table.grid01{width:100%;border-top:1px solid #ccc;border-right:1px solid #ccc}
 table.grid01 tr td{padding:16px;width:14.29%;font-size:14px;background:#fff;color:#555;border-left:1px solid #ccc;border-bottom:1px solid #ccc;text-align:center}
