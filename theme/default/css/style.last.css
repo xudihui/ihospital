@@ -243,3 +243,5 @@ span.pageStatus{padding-right:20px}
 /*============================*/
 /*=== Custom Slider Styles ===*/
 /*============================*/
+.article_wrap p{line-height:1.5!important;color:#333}
+@media screen and (max-width:1200px){#head,.main {zoom:.8}}
