@@ -263,6 +263,9 @@ a.a_r img,a.a_l img{width:482px}
 ul.list li a{width:230px}
 ul.list{width:290px}
 #d1{margin-left:890px\9!important;margin-top:-300px\9!important}
-
-
+ul.list03,#rightLayout {width: 735px;}
+ul.list03 li a{width:625px}
+.lste li .inf div{height:45px;}
+.lste li .inf{width:615px}
+.lstd li {margin-left:20px}
 }
