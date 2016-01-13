@@ -202,7 +202,8 @@ $(function(){
 	$(window).bind('load',function(){ //此处一定要在图片全部载入之后在触发，纯粹的DOMready会导致一些图片虽然在滚动，但内容是空白的
 	    $('#slider').nivoSlider({ pauseTime:3000,effect: 'random'});
 		init([ //初始化页面，有元素则触发滚动
-			[".picMarquee-left",{mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:3,interTime:30,trigger:'click'}]
+			["#picMarquee-left",{mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:3,interTime:30,trigger:'click'}],
+			["#picMarquee-left02",{mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:3,interTime:30,trigger:'click'}]
 		]);			
 	});
 
